@@ -3,7 +3,7 @@ from scraper import getItems
 
 
 def getProduct():
-    getItems('''Get product full name from page the paste inside this function''')
+    getItems('''Get the product's full name from product page the paste inside this function''')
 
 
 SCRIPT_PATH = os.path.abspath(__file__)
