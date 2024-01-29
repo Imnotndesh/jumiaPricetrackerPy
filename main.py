@@ -7,7 +7,7 @@ def getProduct():
 
 
 SCRIPT_PATH = os.path.abspath(__file__)
-CRONTAB_ENTRY = f"* * * * * python {SCRIPT_PATH}\n"
+CRONTAB_ENTRY = f"*/5 * * * * python {SCRIPT_PATH}\n"
 CRONTAB_FILE = os.path.expanduser('~/.crontab_temp')
 
 
